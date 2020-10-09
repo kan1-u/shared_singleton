@@ -117,8 +117,8 @@ mod tests {
 
     #[test]
     fn arc_mutex_test() {
-        struct Foo(i32);
-        impl_singleton_arc_mutex!(Foo, Foo(0));
+        struct Foo;
+        impl_singleton_arc_mutex!(Foo, Foo);
         assert!(Arc::ptr_eq(&Foo::singleton(), &Foo::singleton()));
     }
 
