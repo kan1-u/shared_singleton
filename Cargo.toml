@@ -1,0 +1,14 @@
+[package]
+name = "shared_singleton"
+description = "The shared_singleton trait provides singleton pattern state management with shared container."
+version = "0.1.0"
+authors = ["Kanichi Uegaki <kan1.921017@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/kan1-u/shared_singleton"
+keywords = ["shared", "singleton", "container"]
+readme = "README.md"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
